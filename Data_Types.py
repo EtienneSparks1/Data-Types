@@ -43,7 +43,7 @@ joined_tuple = tuple_list + tuple_list_two #Joins the two tuples together by cre
 print(joined_tuple) #Outputs the new tuple
 '''
 
-my_dict = {"name" : "John",
+my_dict = {"name" : "John", #Creates a dictionary with variables and values assigned in pairs
            "age" : 20,
            "email" : "Something@gmail.com",
            "is_student" : True,
@@ -51,4 +51,19 @@ my_dict = {"name" : "John",
            "descriptive_message" : "John is a student who likes programming"}
 
 print(my_dict)
-print(my_dict["age"])
+print(my_dict["age"]) #Values can be access using the variable name
+
+car_details = {"car_make" : "Toyota",
+               "car_model" : "Corolla",
+               "car_year" : 2021,
+               "car_MOT" : True,
+               "car_insurance" : True}
+
+print(car_details)
+make = car_details["car_make"] #Assigns the value of 'car_make' to the variable make
+print(car_details)
+car_details["car_year"] = 2024 #Adds/changes the value of the car year
+print(car_details)
+car_details["car_colour"] = "Red" #Adds the colour of the car to the variable 'car_colour'
+print(car_details)
+del car_details["car_colour"] #Removes the variable 'car_colour' from the dictionary
