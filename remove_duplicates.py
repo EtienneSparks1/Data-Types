@@ -22,3 +22,8 @@ def remove_duplicates(numbers):
 
 
     return unique_numbers
+
+list = [1, 2, 3, 4, 5, 6, 2, 6, 7, 8, 4, 6, 9,]
+print("Original list: ", list)
+list = set(list) #Converting list type to 'set' will remove all duplicate items
+print("New list (Without duplicates): ", list)
