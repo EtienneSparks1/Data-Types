@@ -72,8 +72,3 @@ numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 
 encoded_alphabet = dict(zip(numbers, alphabet))
-
-number = input("Enter a number seperated by spaces: ")
-
-for i in range (len(number)):
-    print(encoded_alphabet[number[i]])
