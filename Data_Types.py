@@ -41,7 +41,6 @@ tuple_list_two = tuple(tuples_list_two)
 joined_tuple = tuple_list + tuple_list_two #Joins the two tuples together by creating a new list and moving all the items into it
 
 print(joined_tuple) #Outputs the new tuple
-'''
 
 my_dict = {"name" : "John", #Creates a dictionary with variables and values assigned in pairs
            "age" : 20,
@@ -67,3 +66,9 @@ print(car_details)
 car_details["car_colour"] = "Red" #Adds the colour of the car to the variable 'car_colour'
 print(car_details)
 del car_details["car_colour"] #Removes the variable 'car_colour' from the dictionary
+'''
+
+def new_function(x, y, z): #Creates the function using 'def'
+    #Body of the function
+    return x, y, z #Returns the values of the variable 'x', 'y' and 'z' and ends the function. the function can now be accessed at any time
+
